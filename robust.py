@@ -3,16 +3,11 @@
 
 import pandas as pd
 import sklearn
-import matplotlib.pyplot as plt
-
-from sklearn.decomposition import PCA
 #from sklearn.decomposition import KernelPCA
-from sklearn.decomposition import IncrementalPCA
+
 from sklearn.svm import SVR
-from sklearn.linear_model import LinearRegression, RANSACRegressor, HuberRegressor
-from sklearn.linear_model import Ridge
-from sklearn.linear_model import Lasso
-from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import  RANSACRegressor, HuberRegressor
+
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
 
