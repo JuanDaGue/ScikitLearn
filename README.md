@@ -6,12 +6,6 @@ This project demonstrates the use of Scikit-Learn to build and evaluate a machin
 ## Installation
 To get started, clone this repository and install the required dependencies.
 
-```bash
-git clone https://github.com/JuanDaGue/Skikilearn
-cd your-repo-name
-python -m venv env
-source env/Scripts/activate  # On Windows use `env\Scripts\activate`
-pip install -r requirements.txt
 
 
 ## Summary
@@ -32,3 +26,11 @@ pip install -r requirements.txt
 14. **Regularization that drives insignificant values to zero**: Lasso.
 15. **Is Lasso regularization always better than Ridge for all cases?**: False.
 16. **Technique not used to identify outliers**: Calculation of the..
+
+```bash
+git clone https://github.com/JuanDaGue/Skikilearn
+cd your-repo-name
+python -m venv env
+source env/Scripts/activate  # On Windows use `env\Scripts\activate`
+pip install -r requirements.txt
+
