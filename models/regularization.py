@@ -15,7 +15,7 @@ from sklearn.metrics import mean_squared_error
 
 
 if __name__ == "__main__":
-    df = pd.read_csv('./Data/felicidad.csv')
+    df = pd.read_csv('E:/DataScience/ScikitLearn/Data/felicidad.csv')
     print(df.head())
 
     X =df[['gdp','family','lifexp','freedom','corruption','dystopia']]

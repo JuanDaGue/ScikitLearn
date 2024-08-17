@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 if __name__ == "__main__":
 
-    df = pd.read_csv("./data/candy.csv")
+    df = pd.read_csv("E:/DataScience/ScikitLearn/data/candy.csv")
     print(df.head(5))
 
     X = df.drop('competitorname', axis=1)

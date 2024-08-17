@@ -13,7 +13,7 @@ from sklearn.metrics import mean_squared_error
 
 
 if __name__ == "__main__":
-    df = pd.read_csv('./Data/NoFelicidad.csv')
+    df = pd.read_csv('E:/DataScience/ScikitLearn/Data/NoFelicidad.csv')
     print(df.head())
 
     X = df.drop(['country', 'score'], axis=1)

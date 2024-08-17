@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 if __name__ == "__main__":
-    df = pd.read_csv('./Data/heart.csv')
+    df = pd.read_csv('E:/DataScience/ScikitLearn/Data/heart.csv')
     print(df['target'].describe())
     X = df.drop(['target'], axis=1)
     y = df['target']

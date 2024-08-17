@@ -4,7 +4,7 @@ from sklearn.cluster import MiniBatchKMeans
 
 if __name__ == "__main__":
 
-    dataset = pd.read_csv('./data/candy.csv')
+    dataset = pd.read_csv('E:/DataScience/ScikitLearn/data/candy.csv')
     print(dataset.head(10))
 
     X = dataset.drop('competitorname', axis=1)

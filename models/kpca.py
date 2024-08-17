@@ -11,7 +11,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 
 if __name__ == "__main__":
-    dt_heart = pd.read_csv('./Data/heart.csv')
+    dt_heart = pd.read_csv('E:/DataScience/ScikitLearn/Data/heart.csv')
     print(dt_heart.head())
 
     dt_features =dt_heart.drop(['target'],axis=1)

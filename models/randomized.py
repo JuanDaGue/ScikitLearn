@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestRegressor
 
 if __name__ == "__main__":
 
-    df = pd.read_csv('./data/felicidad.csv')
+    df = pd.read_csv('E:/DataScience/ScikitLearn/data/felicidad.csv')
 
     print(df)
 
